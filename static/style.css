@@ -6,18 +6,35 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* 页脚 */
-footer {
-    color: #888;
-    margin-top: 15px;
-    text-align: center;
-    padding: 10px;
-}
-
 /* 头像 */
 .avatar {
     width: 40px;
 }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
 
 /* 电影列表 */
 .movie-list {
@@ -40,9 +57,31 @@ footer {
     background-color: #f8f9fa;
 }
 
+.float-right {
+    float: right;
+}
+
+.imdb {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    background: #F5C518;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+
 /* 龙猫图片 */
 .totoro {
     display: block;
     margin: 0 auto;
     height: 100px;
+}
+
+/* 页脚 */
+footer {
+    color: #888;
+    margin-top: 15px;
+    text-align: center;
+    padding: 10px;
 }
